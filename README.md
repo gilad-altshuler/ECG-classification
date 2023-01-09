@@ -25,9 +25,20 @@ MI (myocardial infarction) Dataset
 - Classes proportion: [0.28, 0.72]
 - Dataset link : https://www.kaggle.com/shayanfazeli/heartbeat
 
-### Preproccessing:
+### Preprocessing:
 
 ![image](https://user-images.githubusercontent.com/119232867/211274522-381393e4-10b3-49b1-8625-6eece113a67f.png)
 
-- Sampled ECG heartbeat preproccessed by this scheme:
-  - sa 
+- Sampled ECG heartbeat preproccessed by this scheme: 
+  - Splitting the continuous ECG signal to 10s windows and select a 10s window from an ECG signal.
+  - Normalizing the amplitude values to the range of between zero and one.
+  - Finding the set of all local maximums based on zero crossings of the first derivative.
+  - Finding the set of ECG R-peak candidates by applying a threshold of 0:9 on the normalized value of the local maximums.
+  - Finding the median of R-R time intervals as the nominal heartbeat period of that window (T).
+  - For each R-peak, selecting a signal part with the length equal to 1.2T.
+  - Padding each selected part with zeros to make its length equal to a predefined fixed length.
+  
+- After preprocessing
+
+![image](https://user-images.githubusercontent.com/119232867/211292748-81743bde-22b8-4bdf-98d0-14be4dd28332.png)
+
