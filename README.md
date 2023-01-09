@@ -22,6 +22,8 @@ MI (myocardial infarction) Dataset
 - Dataset link : https://www.kaggle.com/shayanfazeli/heartbeat
 
 ### Preproccessing:
+
 ![image](https://user-images.githubusercontent.com/119232867/211274522-381393e4-10b3-49b1-8625-6eece113a67f.png)
+
 - Sampled ECG heartbeat preproccessed by this scheme:
-  1) 
+  - sa 
