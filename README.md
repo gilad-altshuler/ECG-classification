@@ -10,15 +10,17 @@ Arrhythmia Dataset
 - Sampling Frequency: 125Hz
 - Data Source: Physionet's MIT-BIH Arrhythmia Dataset
 - Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
+- Classes proportion: [
 - Dataset link : https://www.kaggle.com/shayanfazeli/heartbeat
 
 MI (myocardial infarction) Dataset
-- Number of Samples: 
+- Number of Samples: 14552
 - train / test: 
 - Number of Categories: 2
 - Sampling Frequency: 125Hz
 - Data Source: PTB Diagnostic ECG Database
 - Classes: ['normal': 0, 'abnormal': 1]
+- Classes proportion: [0.28, 0.72]
 - Dataset link : https://www.kaggle.com/shayanfazeli/heartbeat
 
 ### Preproccessing:
