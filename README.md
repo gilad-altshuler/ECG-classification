@@ -6,7 +6,7 @@ depository for deep learning course project
 ## Datasets
 ### Content:
 Arrhythmia Dataset
-- Number of Samples: 109446
+- Number of Samples: 109444
 - train / test: 80% / 20%
 - Number of Categories: 5
 - Sampling Frequency: 125Hz
