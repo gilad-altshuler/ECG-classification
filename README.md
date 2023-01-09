@@ -1,6 +1,8 @@
-# Deep_Learning
-depository for deep learning course assignments
+# ECG classification
+depository for deep learning course project
 ---------------------------------------------------------------------
+![ECG gif](https://user-images.githubusercontent.com/119232867/211278114-10f78482-a06a-4384-8c6d-e086eec0d4fe.gif)
+
 ## Datasets
 ### Content:
 Arrhythmia Dataset
