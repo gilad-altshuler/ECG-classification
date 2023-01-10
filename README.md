@@ -1,8 +1,18 @@
 # ECG classification
-depository for deep learning course project
+Depository for deep learning course project
 ---------------------------------------------------------------------
 ![ECG gif](https://user-images.githubusercontent.com/119232867/211278114-10f78482-a06a-4384-8c6d-e086eec0d4fe.gif)
+## About
 
+Electrocardiogram (ECG) can be reliably used as a measure to monitor the functionality of the cardiovascular system.
+In this project, we analyze the method based on deep convolutional neural networks for the
+classification of heartbeats which is able to accurately classify
+five different arrhythmias in accordance with the AAMI EC57
+standard and a method for transferring the knowledge acquired on this task to the myocardial infarction (MI) classification task.
+
+This project aims are 2:
+- to reproduce the high accuracy results shown in the Kauschee et al. article (see acknowledgement section).
+- 
 ## Datasets
 ### Content:
 Arrhythmia Dataset
@@ -42,3 +52,6 @@ MI (myocardial infarction) Dataset
 
 ![image](https://user-images.githubusercontent.com/119232867/211292748-81743bde-22b8-4bdf-98d0-14be4dd28332.png)
 
+## Run
+## Acknowledgement
+- ECG Heartbeat Classification: A Deep Transferable Representation, Kachuee et Al. 2018
