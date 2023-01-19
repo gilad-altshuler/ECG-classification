@@ -2,6 +2,9 @@
 Depository for deep learning course project
 ---------------------------------------------------------------------
 ![ECG gif](https://user-images.githubusercontent.com/119232867/211278114-10f78482-a06a-4384-8c6d-e086eec0d4fe.gif)
+![R](https://user-images.githubusercontent.com/119232867/212991176-401d20e3-28e6-45c7-9ada-a9ea450ec73b.gif)
+
+
 ## About
 
 Electrocardiogram (ECG) can be reliably used as a measure to monitor the functionality of the cardiovascular system.
@@ -51,6 +54,11 @@ MI (myocardial infarction) Dataset
 - After preprocessing
 
 ![image](https://user-images.githubusercontent.com/119232867/211292748-81743bde-22b8-4bdf-98d0-14be4dd28332.png)
+
+- 5 example from dataset, and their labels
+
+<img width="706" alt="examples" src="https://user-images.githubusercontent.com/119232867/212958647-b49dc5a8-3fe2-4d20-a5c5-e72ac935c979.PNG">
+
 
 ## Run
 ## Acknowledgement
