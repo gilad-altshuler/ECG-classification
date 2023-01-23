@@ -30,7 +30,7 @@ Arrhythmia Dataset
 
 MI (myocardial infarction) Dataset
 - Number of Samples: 14550
-- train / test: 
+- train / test: 80% / 20%
 - Number of Categories: 2
 - Sampling Frequency: 125Hz
 - Data Source: PTB Diagnostic ECG Database
