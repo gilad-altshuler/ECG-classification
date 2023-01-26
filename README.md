@@ -5,12 +5,12 @@ Depository for deep learning course project
 ![R](https://user-images.githubusercontent.com/119232867/212991176-401d20e3-28e6-45c7-9ada-a9ea450ec73b.gif)
 
 - [ECG-classification](#ECG-classification)
-  * [Files in The Repository](#files-in-the-repository)
   * [About](#About)
   * [Datasets](#Datasets) 
   * [Proposed CNN Model](#proposed-cnn-model)
   * [Results](#results)
   * [Run](#Run)
+  * [Files in The Repository](#files-in-the-repository)
   * [Acknowledgement](#Acknowledgement)
 
 ## About
@@ -21,9 +21,11 @@ classification of heartbeats which is able to accurately classify
 five different arrhythmias in accordance with the AAMI EC57
 standard and a method for transferring the knowledge acquired on this task to the myocardial infarction (MI) classification task.
 
-This project aims are 2:
-- to reproduce the high accuracy results shown in the Kauschee et al. article (see acknowledgement section).
-- 
+This project goals are 3:
+- Design simple yet accurate model to the prediction task
+- Try to transfer the learnt model for Arrhythmia task for MI task
+- Comprehend the CNN layers and their meanings
+
 ## Datasets
 ### Content:
 Arrhythmia Dataset
@@ -76,5 +78,25 @@ we wanted the model to be simple, yet accurate, and genaralizable enough to be a
 with 4 convolution layers and 4 fully connected layers.
 
 ## Run
+
+All the codelines needed can be found in ECG_classification.ipynb.
+To be able to run the dataset one need to:
+
+(1) Download manually the datasets from https://www.kaggle.com/shayanfazeli/heartbeat.
+
+(2) Uploading to your drive to the directory /content/drive/MyDrive/Deep_Learning/datasets (default in code)
+
+(3) One can choose other directory in drive, but change the link in the code.*
+
+*the last directory must be called "datasets"
+
+This will allow the rest of code to use the heartbeats datasets.
+
+## Files in The Repository
+
+- README.md
+- ECG_classification.ipynb: code section.
+- submissions: directory for project submitted files.
+
 ## Acknowledgement
 - ECG Heartbeat Classification: A Deep Transferable Representation, Kachuee et Al. 2018
