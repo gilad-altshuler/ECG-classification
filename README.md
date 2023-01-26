@@ -22,9 +22,9 @@ five different arrhythmias in accordance with the AAMI EC57
 standard and a method for transferring the knowledge acquired on this task to the myocardial infarction (MI) classification task.
 
 This project goals are 3:
-- Design simple yet accurate model to the prediction task
-- Try to transfer the learnt model for Arrhythmia task for MI task
-- Comprehend the CNN layers and their meanings
+- Design simple yet accurate model to the prediction task.
+- Try to transfer the learnt model for Arrhythmia task for MI task.
+- Comprehend the CNN layers and their meanings.
 
 ## Datasets
 ### Content:
