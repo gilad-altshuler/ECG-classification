@@ -4,6 +4,14 @@ Depository for deep learning course project
 ![ECG gif](https://user-images.githubusercontent.com/119232867/211278114-10f78482-a06a-4384-8c6d-e086eec0d4fe.gif)
 ![R](https://user-images.githubusercontent.com/119232867/212991176-401d20e3-28e6-45c7-9ada-a9ea450ec73b.gif)
 
+- [ECG-classification](#ECG-classification)
+  * [Files in The Repository](##files-in-the-repository)
+  * [About](##About)
+  * [Datasets](##Datasets) 
+  * [Proposed CNN Model](##proposed-cnn-model)
+  * [Results](##results)
+  * [Run](##Run)
+  * [Acknowledgement](##Acknowledgement)
 
 ## About
 
