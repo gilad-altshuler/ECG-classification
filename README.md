@@ -5,13 +5,13 @@ Depository for deep learning course project
 ![R](https://user-images.githubusercontent.com/119232867/212991176-401d20e3-28e6-45c7-9ada-a9ea450ec73b.gif)
 
 - [ECG-classification](#ECG-classification)
-  * [Files in The Repository](##files-in-the-repository)
-  * [About](##About)
-  * [Datasets](##Datasets) 
-  * [Proposed CNN Model](##proposed-cnn-model)
-  * [Results](##results)
-  * [Run](##Run)
-  * [Acknowledgement](##Acknowledgement)
+  * [Files in The Repository](#files-in-the-repository)
+  * [About](#About)
+  * [Datasets](#Datasets) 
+  * [Proposed CNN Model](#proposed-cnn-model)
+  * [Results](#results)
+  * [Run](#Run)
+  * [Acknowledgement](#Acknowledgement)
 
 ## About
 
