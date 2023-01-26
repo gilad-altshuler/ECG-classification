@@ -67,6 +67,13 @@ MI (myocardial infarction) Dataset
 
 <img width="706" alt="examples" src="https://user-images.githubusercontent.com/119232867/212958647-b49dc5a8-3fe2-4d20-a5c5-e72ac935c979.PNG">
 
+## Proposed CNN model
+
+we wanted the model to be simple, yet accurate, and genaralizable enough to be able to transfer between the 2 datasets. We chose the CNN model:
+
+![image](https://user-images.githubusercontent.com/119232867/214833897-5aa8d325-8a7e-4cfc-b2e2-12929f08fe4b.png)
+
+with 4 convolution layers and 4 fully connected layers.
 
 ## Run
 ## Acknowledgement
