@@ -77,6 +77,28 @@ we wanted the model to be simple, yet accurate, and genaralizable enough to be a
 
 with 4 convolution layers and 4 fully connected layers.
 
+## Results
+
+- Training the model on datasets:
+
+![image](https://user-images.githubusercontent.com/119232867/214838845-87afa5a2-f984-40ba-8968-9d0c442d62c1.png)
+![image](https://user-images.githubusercontent.com/119232867/214839242-8b55726f-911e-4430-a663-618af4546746.png)
+
+comparing results:
+
+![image](https://user-images.githubusercontent.com/119232867/214840428-75e101d6-cfa2-4f31-a6d4-499c3281efab.png)
+
+- Transferring the Arrhythmia task model to MI task, with each number of trained layers:
+
+![image](https://user-images.githubusercontent.com/119232867/214840015-992a1908-5faa-489e-adcd-f6f3d9385c20.png)
+![image](https://user-images.githubusercontent.com/119232867/214840102-fd531af0-5a6d-40d2-8dd2-50a4a0fb3691.png)
+
+- input through layers example:
+
+![image](https://user-images.githubusercontent.com/119232867/214840246-6acd8277-08ed-49f1-b28e-6fdc362eb103.png)
+
+
+
 ## Run
 
 All the codelines needed can be found in ECG_classification.ipynb.
@@ -94,9 +116,11 @@ This will allow the rest of code to use the heartbeats datasets.
 
 ## Files in The Repository
 
-- README.md
-- ECG_classification.ipynb: code section.
-- submissions: directory for project submitted files.
+|File name         | Purpsoe |
+|----------------------|------|
+|`README.md`| readme|
+|`ECG_classification.ipynb`| code section for the model and trials|
+|`submissions`| directory for project submitted files|
 
 ## Acknowledgement
 - ECG Heartbeat Classification: A Deep Transferable Representation, Kachuee et Al. 2018
