@@ -81,21 +81,21 @@ with 4 convolution layers and 4 fully connected layers.
 
 - Training the model on datasets:
 
-![image](https://user-images.githubusercontent.com/119232867/214838845-87afa5a2-f984-40ba-8968-9d0c442d62c1.png)
+![image](https://user-images.githubusercontent.com/119232867/215318899-04be0c22-9f5f-4a3f-bce1-4610497b7e21.png)
 ![image](https://user-images.githubusercontent.com/119232867/214839242-8b55726f-911e-4430-a663-618af4546746.png)
 
 comparing results:
 
-![image](https://user-images.githubusercontent.com/119232867/214840428-75e101d6-cfa2-4f31-a6d4-499c3281efab.png)
+![image](https://user-images.githubusercontent.com/119232867/215318929-5458ef61-d1f9-4b6d-9d3f-46a050f53059.png)
 
 - Transferring the Arrhythmia task model to MI task, with each number of trained layers:
 
 ![image](https://user-images.githubusercontent.com/119232867/214840015-992a1908-5faa-489e-adcd-f6f3d9385c20.png)
-![image](https://user-images.githubusercontent.com/119232867/214840102-fd531af0-5a6d-40d2-8dd2-50a4a0fb3691.png)
+![image](https://user-images.githubusercontent.com/119232867/215318982-6fb7ea1b-fa00-4583-b948-e52bb607aba9.png)
 
 - input through layers example:
 
-![image](https://user-images.githubusercontent.com/119232867/214840246-6acd8277-08ed-49f1-b28e-6fdc362eb103.png)
+![image](https://user-images.githubusercontent.com/119232867/215319008-cdc453ac-f895-4706-a291-4e603ab793e8.png)
 
 
 
@@ -124,3 +124,8 @@ This will allow the rest of code to use the heartbeats datasets.
 
 ## Acknowledgement
 - ECG Heartbeat Classification: A Deep Transferable Representation, Kachuee et Al. 2018
+- “Improved Neural Network Arrhythmia Classification Through Integrated Data Augmentation” - Garrett I. Cayce et Al, 2022.
+- “Architecture Enhancement of Convolutional Neural Networks for Arrhythmia Classification” - Hae Jin Kim et Al, 2022.
+- “Electrocardiogram heartbeat classification based on a deep convolutional neural network and focal loss” - Taissir FekihRomdhane et Al, 2020.
+- https://github.com/sajiddeboss/ECG-HeartBeat-Classification
+- https://www.kaggle.com/datasets/shayanfazeli/heartbeat
